@@ -47,6 +47,7 @@
 .portfolio-screenshot {
     width: 95%;
     height: auto;
+    margin-bottom: 30px;
 }
 .portfolio-header {
     font-weight: bold;
