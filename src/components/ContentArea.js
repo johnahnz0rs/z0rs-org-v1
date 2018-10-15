@@ -96,7 +96,7 @@ class ContentArea extends React.Component {
                         <button name="home" value="home" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Home</button>
                         <button name="portfolio" value="portfolio" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Portfolio</button>
                         <button name="resume" value="resume" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Resume</button>
-                        <button name="about" value="about" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>About</button>
+                        <button name="about" value="about" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Get to Know J.Ahn</button>
                         <button name="contact" value="Contact" type="button" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Contact</button>
                         <button className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.printState}>print state</button>
                     </div>
