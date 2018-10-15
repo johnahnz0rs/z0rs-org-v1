@@ -17,7 +17,7 @@ class ContentArea extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showThisTab: 'home'
+            showThisTab: 'contact'
         };
         // this.showTab = this.showTab.bind(this);
         // this.showHome = this.showHome.bind(this);

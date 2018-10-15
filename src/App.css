@@ -36,11 +36,19 @@
 
 
 
-/*Contact.js*/
-.contact-ul {
-    list-style: none;
+/*ContactInfo.js*/
+.contact-logo {
+    /*images of email, phone, text, linkedin, etc. logos*/
+    height: 30px;
+    width: auto;
 }
-/*end Contact.js*/
+.contact-info-header {
+    margin-bottom: 30px;
+}
+dd {
+    margin-bottom: 30px;
+}
+/*end ContactInfo.js*/
 
 
 
