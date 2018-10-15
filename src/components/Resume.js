@@ -4,13 +4,15 @@ import ImgResume from '../assets/resume.png';
 
 const Resume = props => {
 
+    const resumeURL = 'https://drive.google.com/file/d/1-GFUiMXOzbxW4HTXMNMhpagbZ0wuB4SY/view?usp=sharing';
+
     return (
         <React.Fragment>
             <div className="container-fluid text-center">
 
 
                 <div className="col-12">
-                    <form action="https://drive.google.com/file/d/1C_nNhOgam0VvFhV3md4K8haYbgITeFWY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <form action={resumeURL} target="_blank" rel="noopener noreferrer">
 
                         {/* button-link to gdocs/resume */}
                         <input type="submit" className="btn btn-lg btn-outline-success" value="View & Save PDF" />
@@ -19,7 +21,7 @@ const Resume = props => {
 
                 <div className="col-12 resume-img">
                     {/* img also links to gdocs/resume */}
-                    <a href="https://drive.google.com/file/d/1C_nNhOgam0VvFhV3md4K8haYbgITeFWY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href={resumeURL} target="_blank" rel="noopener noreferrer">
                         <img className="resume-thumbnail" src={ImgResume} alt="John Ahn's Resume" />
                     </a>
 

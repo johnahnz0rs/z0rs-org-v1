@@ -17,22 +17,22 @@ const MyNavbar = props => {
 
                 <Navbar color="green" light>
 
-                    <NavbarBrand href='/' className="mr-auto ml-auto">
+                    <NavbarBrand href='/z0rs-org/' className="mr-auto ml-auto">
                         <img className="navbar-brand" src={Brand} alt="" />
                     </NavbarBrand>
 
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/portfolio">Portfolio</NavLink>
+                            <NavLink href="/z0rs-org/portfolio">Portfolio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/resume">Resume</NavLink>
+                            <NavLink href="/z0rs-org/resume">Resume</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/about">About J.Ahn</NavLink>
+                            <NavLink href="/z0rs-org/about">About J.Ahn</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact">Contact</NavLink>
+                            <NavLink href="/z0rs-org/contact">Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
