@@ -1,63 +1,63 @@
-/*ContentArea.js*/
-.each-component {
-    /*border: 1px solid black;*/
-    /*margin: 10px;*/
-    /*padding: 10px;*/
+/*MyNavbar.js*/
+.navbar-brand {
+    width: 150px;
+    height: auto;
 }
-.fake-nav-btn {
-    margin: 10px;
+.nav-link {
+    margin-right: 50px;
 }
-.my-header {
-    text-align: center;
+.navbar-nav{
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
-/*end ContentArea.js*/
+.navbar-divider {
+    width: 95%;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto 50px auto;
+}
+/*end MyNavbar.js*/
 
 
-/*Home.js*/
+/*HomeCarousel.js*/
 .home-slides {
-    height: 300px;
+    height: 100%;
+    padding: 50px 0;
 }
-.my-carousel-inner {
-    background-color: cornflowerblue;
+.slide-header {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
-/*end Home.js*/
+.slide-img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+/*end HomeCarousel.js*/
 
 
 /*Portfolio.js*/
-.portfolio-component {
-    margin-top: 50px;
-}
-/*.portfolio-table {*/
-    /*!*margin: 50px;*!*/
-    /*padding: 50px;*/
-/*}*/
 .portfolio-item {
-    margin-top: 20px;
+    margin: 30px auto;
+    padding: 30px 0;
+    border: 1px solid black;
 }
 .portfolio-screenshot {
-    width: 480px;
+    width: 95%;
     height: auto;
 }
-/*.portfolio-logo {*/
-    /*height: 20px;*/
-    /*width: auto;*/
-/*}*/
+.portfolio-header {
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*end Portfolio.js*/
 
 
 /*Resume.js*/
-.resume-component {
-    margin-top: 50px;
-}
-.resume-btn-link {
-    margin-top: 30px;
-}
 .resume-img {
-    margin-top: 20px;
-}
-.resume-profile-img {
-    width: 180px;
-    height: auto;
+    margin: 20px auto;
 }
 .resume-thumbnail {
     border: 2px solid black;
@@ -69,41 +69,47 @@
 
 
 /*About.js*/
-.about-item {
-    margin: 50px;
-    padding: 10px;
-    border: 1px solid black;
-    display: inline-block;
-    /*height: 100px;*/
-    /*width: 100px;*/
-}
 .about-video-placeholder {
-    /*width: 100px;*/
+    width: 700px;
+    max-width: 95%;
+    margin: 0 auto;
+    height: auto;
+}
+.about-social {
+    margin-top: 60px;
+}
+.about-social-img {
+    width: 50px;
     height: auto;
 }
 /*end About.js*/
 
 
-
 /*ContactForm.js*/
 .contact-form-div {
-
+    padding: 0 50px;
+}
+.contact-form-header {
+    margin-bottom: 30px;
+}
+.contact-form-send {
+    margin-bottom: 40px;
 }
 /*end ContactForm.js*/
 
 
 /*ContactInfo.js*/
+.contact-info-div {
+    padding: 10px;
+}
 .contact-item {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 .contact-logo {
-    /*images of email, phone, text, linkedin, etc. logos*/
+    /*icons for email, phone, text, linkedin, etc. logos*/
     height: 30px;
     width: auto;
-}
-.contact-info-header {
-    margin-bottom: 30px;
+    margin-right: 10px;
 }
 dd {
     margin-bottom: 30px;

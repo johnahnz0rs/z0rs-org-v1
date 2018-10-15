@@ -6,14 +6,14 @@ const Contact = props => {
 
     return (
         <React.Fragment>
-            <div className="each-component container">
+            <div className="container-fluid">
                 <div className="row">
-                    <div className='col-md-6'>
+                    <div className='col-sm-8'>
 
                         <ContactForm />
 
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-sm-4">
 
                         <ContactInfo />
 

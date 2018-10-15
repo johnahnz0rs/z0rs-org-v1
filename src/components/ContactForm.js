@@ -6,8 +6,8 @@ const ContactForm = props => {
 
         <React.Fragment>
 
-            <div className="contact-form-div">
-                <h3>Send a Message</h3>
+            <div className="contact-form-div container-fluid">
+                <h3 className="contact-form-header">Send a Message</h3>
 
 
                 <form id="contact-form" action="https://formspree.io/johnahn123@gmail.com" method="POST">
@@ -36,7 +36,7 @@ const ContactForm = props => {
                         <textarea className="form-control" id="message" name="message" rows="4"> </textarea>
                     </div>
 
-                    <input type="submit" className="btn btn-lg btn-primary" value="Send"/>
+                    <input type="submit" className="btn btn-lg btn-primary contact-form-send" value="Send"/>
                 </form>
             </div>
         </React.Fragment>

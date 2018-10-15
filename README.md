@@ -7,4 +7,5 @@
 [x] about.js - add video-placeholder and notes
 [x] resume.js - add img-placeholder and notes
 [x] portfolio.js - test div-row w/ cols - staying with original table layout
-[] contentarea.js - navbar
+[x] contentarea.js - navbar
+[] clean up css

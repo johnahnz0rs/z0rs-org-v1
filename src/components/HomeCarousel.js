@@ -7,6 +7,8 @@ const HomeCarousel = props => {
 
         <React.Fragment>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+
+                {/* page indicators */}
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -14,31 +16,39 @@ const HomeCarousel = props => {
                 </ol>
 
                 <div className="carousel-inner my-carousel-inner">
+                    {/*slide 0: High EQ*/}
                     <div className="carousel-item active home-slides text-center">
-                        <h3 className="text-bold text-underline">High IQ</h3>
-                        <img className="img-fluid" src={Video} alt="video coming soon" />
-                        <ul>
-                            <li>Mensa member since 2017</li>
-                            <li>problem solving, design thinking</li>
-                            <li>strategy, business development</li>
-                            <li>lifelong learner, expanding skill sets</li>
+                        <h3 className="slide-header">High EQ</h3>
+                        <img className="slide-img" src={Video} alt="video coming soon" />
+                        <ul className="list-unstyled">
+                            <li>Conflict Resolution</li>
+                            <li>Customer Service</li>
+                            <li>Negotiations</li>
+                            <li>Lead by Example</li>
                         </ul>
                     </div>
+
+                    {/*slide 1: High IQ*/}
                     <div className="carousel-item home-slides text-center">
-                        <h3 className="text-bold text-underline">High EQ</h3>
-                        <img className="img-fluid" src={Video} alt="video coming soon" />
-                        <ul>
-                            <li>conflict resolution</li>
-                            <li>contract negotiations</li>
-                            <li>team morale, leadership</li>
-                            <li>customer service</li>
+                        <h3 className="slide-header">High IQ</h3>
+                        <img className="slide-img" src={Video} alt="video coming soon" />
+                        <ul className="list-unstyled">
+                            <li>Problem Solving</li>
+                            <li>Design Thinking</li>
+                            <li>Strategy</li>
+                            <li>Business Development</li>
                         </ul>
                     </div>
+
+                    {/*slide 2: Mentee*/}
                     <div className="carousel-item home-slides text-center">
-                        <h3 className="text-bold text-underline">Thoughtful, Capable Mentee</h3>
-                        <img className="img-fluid" src={Video} alt="video coming soon" />
-                        <ul>
-                            <li>brings value high to you!</li>
+                        <h3 className="slide-header">Thoughtful, Capable Mentee</h3>
+                        <img className="slide-img" src={Video} alt="video coming soon" />
+                        <ul className="list-unstyled">
+                            <li>Highly Coachable</li>
+                            <li>Lifelong Learner</li>
+                            <li>Capable</li>
+                            <li>Earnest Worker</li>
                         </ul>
                     </div>
                 </div>
@@ -52,8 +62,6 @@ const HomeCarousel = props => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-
-
 
 
             {/* this is how to embed videos w bootstrap */}
