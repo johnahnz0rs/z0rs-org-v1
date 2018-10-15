@@ -11,8 +11,10 @@ const Portfolio = props => {
                 <tbody>
 
                     {/*whatMusic*/}
-                    <tr className="align-items-center">
-                        <td><img className="portfolio-screenshot" src={ImgPlaceholder} alt="placeholder for app screenshot" /></td>
+                    <tr>
+                        <td>
+                            <a href="http://whatmusic.xyz" target="_blank" rel="noopener noreferrer"><img className="portfolio-screenshot" src={ImgPlaceholder} alt="placeholder for app screenshot" /></a>
+                        </td>
                         <td>
                             <ul className="list-unstyled">
                                 <li className=""><h4 className="text-underline text-bold">whatMusic</h4></li>
@@ -23,10 +25,10 @@ const Portfolio = props => {
 
                                         <dt className="col-sm-2">Technologies</dt>
                                         <dd className="col-sm-9">
-                                            Front End: React.js
-                                            <br />Back End: Node.js, Express.js, MongoDB
-                                            <br/>MERN Full Stack, JavaScript, HTML, Materialize CSS
-                                            <br/>deployed on Heroku</dd>
+                                            <span className="text-underline">Front End</span>: React.js
+                                            <br/><span className="text-underline">Back End</span>: Node.js, Express.js, MongoDB
+                                            <br/><span className="text-underline">Other</span>: Materialize CSS, Heroku
+                                        </dd>
 
                                         <dt className="col-sm-2">GitHub</dt>
                                         <dd className="col-sm-9"><a href="https://github.com/johnahnz0rs/what-music" target="_blank" rel="noopener noreferrer">/what-music</a></dd>
@@ -40,9 +42,12 @@ const Portfolio = props => {
                     </tr>
 
 
+
                     {/*devJobs*/}
                     <tr>
-                        <td><img className="portfolio-screenshot" src={ImgPlaceholder} alt="placeholder for app screenshot" /></td>
+                        <td>
+                            <a href="http://devjobs.pro" target="_blank" rel="noopener noreferrer"><img className="portfolio-screenshot" src={ImgPlaceholder} alt="placeholder for app screenshot" /></a>
+                        </td>
                         <td>
                             <ul className="list-unstyled">
                                 <li><h4 className="text-underline text-bold">devJobs</h4></li>
@@ -52,22 +57,28 @@ const Portfolio = props => {
                                         <dd className="col-sm-9">Basic Fake LinkedIn -- upload your resume and build your profile; view and search for jobs by skills compatibility rating; post jobs; send messages.</dd>
 
                                         <dt className="col-sm-2">Technologies</dt>
-                                        <dd className="col-sm-9">Front End - React.js;<br />Back End - Node.js, Express.js, MongoDB;<br/>MERN Full Stack; HTML; Materialize CSS;<br/>deployed on Heroku</dd>
+                                        <dd className="col-sm-9">
+                                            <span className="text-underline">Front End</span>: React.js
+                                            <br/><span className="text-underline">Back End</span>: Node.js, Express.js, MongoDB
+                                            <br/><span className="text-underline">Other</span>Twitter Bootstrap CSS, Heroku</dd>
 
                                         <dt className="col-sm-2">GitHub</dt>
-                                        <dd className="col-sm-9"></dd>
+                                        <dd className="col-sm-9"><a href="https://github.com/johnahnz0rs/devsOnDeck" target="_blank" rel="noopener noreferrer">/devJobs</a></dd>
 
                                         <dt className="col-sm-2">Link</dt>
-                                        <dd className="col-sm-9"></dd>
+                                        <dd className="col-sm-9"><a href="http://devjobs.pro" target="_blank" rel="noopener noreferrer">www.devJobs.pro</a></dd>
                                     </dl>
                                 </li>
                             </ul>
                         </td>
                     </tr>
 
+
                     {/*rBP*/}
                     <tr>
-                        <td><img className="portfolio-screenshot" src={ImgPlaceholder} alt="placeholder for app screenshot" /></td>
+                        <td>
+                            <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer"><img className="portfolio-screenshot" src={ImgPlaceholder} alt="placeholder for app screenshot" /></a>
+                        </td>
                         <td>
                             <ul className="list-unstyled">
                                 <li><h4 className="text-underline text-bold">rBP (robotButlerPal)</h4></li>
@@ -77,13 +88,16 @@ const Portfolio = props => {
                                         <dd className="col-sm-9">rBP.</dd>
 
                                         <dt className="col-sm-2">Technologies</dt>
-                                        <dd className="col-sm-9">Front End / Client: React.js;<br />Back End: Node.js, Express.js, MongoDB; <br/>MERN Full Stack; <br/>HTML; Materialize CSS;<br/> deployed on Heroku</dd>
+                                        <dd className="col-sm-9">
+                                            <span className="text-underline">Front End</span>: React.js
+                                            <br/><span className="text-underline">Back End</span>: Node.js, Express.js, MongoDB
+                                            <br/><span className="text-underline">Other</span>: Materialize CSS, Amazon Web Service AWS</dd>
 
                                         <dt className="col-sm-2">GitHub</dt>
-                                        <dd className="col-sm-9"></dd>
+                                        <dd className="col-sm-9"><a href="https://github.com/johnahnz0rs/rBP" target="_blank">/rBP</a></dd>
 
                                         <dt className="col-sm-2">Link</dt>
-                                        <dd className="col-sm-9"></dd>
+                                        <dd className="col-sm-9"><a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">www.rBPal.me</a></dd>
                                     </dl>
                                 </li>
                             </ul>

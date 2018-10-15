@@ -46,12 +46,34 @@
 
 
 /*About.js*/
-
+.about-item {
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    /*height: 100px;*/
+    /*width: 100px;*/
+}
+.about-video-placeholder {
+    /*width: 100px;*/
+    height: auto;
+}
 /*end About.js*/
 
 
 
+/*ContactForm.js*/
+.contact-form-div {
+
+}
+/*end ContactForm.js*/
+
+
 /*ContactInfo.js*/
+.contact-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .contact-logo {
     /*images of email, phone, text, linkedin, etc. logos*/
     height: 30px;

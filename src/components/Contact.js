@@ -6,7 +6,7 @@ const Contact = props => {
 
     return (
         <React.Fragment>
-            <div className="each-component">
+            <div className="each-component container">
                 <div className="row">
                     <div className='col-md-6'>
 
