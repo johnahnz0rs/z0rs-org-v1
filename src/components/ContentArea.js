@@ -48,7 +48,7 @@ class ContentArea extends React.Component {
             <React.Fragment>
                 <div className="root-div container-fluid">
 
-                    <Navbar>
+                    <Navbar className="my-navbar">
 
                         <NavbarBrand href="#" className="mr-auto ml-auto">
                             <img id="home" className="navbar-brand" src={Brand} alt="" onClick={this.onClick} />

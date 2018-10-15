@@ -47,7 +47,7 @@ const Portfolio = props => {
                             <li>
                                 <dl className="row">
                                     <dt className="col-sm-2">Description</dt>
-                                    <dd className="col-sm-9">Sharing each other's favorite music is a fun, easy, and meaningful way to connect with a new friend. Skip the guessing and see <span className="text-bold">whatMusic</span> yous two have in common & get groovin'.</dd>
+                                    <dd className="col-sm-9">Sharing music is a fun, easy, and meaningful way to connect with a new friend. Skip the guessing and see <span className="text-bold">whatMusic</span> yous two have in common & get groovin'.</dd>
 
                                     <dt className="col-sm-2">Technologies</dt>
                                     <dd className="col-sm-9">

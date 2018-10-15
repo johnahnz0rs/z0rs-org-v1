@@ -10,7 +10,7 @@ const ContactForm = props => {
                 <h3 className="contact-form-header">Send a Message</h3>
 
 
-                <form id="contact-form" action="https://formspree.io/johnahn123@gmail.com" method="POST">
+                <form id="contact-form" action="https://formspree.io/johnahn@z0rs.org" method="POST">
                     <div className="form-group">
                         <label htmlFor="name">Name: </label>
                         <input type="text" className="form-control" id="name" name="name"/>
@@ -33,7 +33,7 @@ const ContactForm = props => {
 
                     <div className="form-group">
                         <label htmlFor="msg">Message: </label>
-                        <textarea className="form-control" id="message" name="message" rows="4"> </textarea>
+                        <textarea className="form-control" id="message" name="message" rows="4"></textarea>
                     </div>
 
                     <input type="submit" className="btn btn-lg btn-primary contact-form-send" value="Send"/>

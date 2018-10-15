@@ -1,23 +1,20 @@
-/*MyNavbar.js*/
+/*ContentArea.js*/
+.my-navbar {
+    margin-bottom: 30px;
+}
 .navbar-brand {
     width: 150px;
     height: auto;
-}
-.nav-link {
-    margin-right: 50px;
 }
 .navbar-nav{
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.navbar-divider {
-    width: 95%;
-    height: 1px;
-    background-color: black;
-    margin: 0 auto 50px auto;
+.nav-link {
+    margin-right: 50px;
 }
-/*end MyNavbar.js*/
+/*end ContentArea.js*/
 
 
 /*HomeCarousel.js*/
@@ -30,10 +27,24 @@
     text-decoration: underline;
     margin-bottom: 20px;
 }
-.slide-img {
+.slide-img-xs {
     width: 300px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.slide-img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.figure-xs {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.figure {
+    max-width: 700px;
+    margin-bottom: 30px;
 }
 /*end HomeCarousel.js*/
 
@@ -71,7 +82,7 @@
 
 /*About.js*/
 .about-video-placeholder {
-    width: 700px;
+    width: 640px;
     max-width: 95%;
     margin: 0 auto;
     height: auto;
@@ -129,5 +140,8 @@ dd {
 }
 .text-underline {
     text-decoration: underline;
+}
+.text-large {
+    font-size: 1.5em;
 }
 /*end Misc*/
