@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 import Home from './Home';
 import Portfolio from "./Portfolio";
 import Resume from './Resume';
@@ -50,9 +50,6 @@ class ContentArea extends React.Component {
 
                     <Navbar>
 
-                        {/*<NavbarBrand id="home" href="#" className="mr-auto ml-auto" onClick={this.onClick}>*/}
-                            {/*<img className="navbar-brand" src={Brand} alt="" />*/}
-                        {/*</NavbarBrand>*/}
                         <NavbarBrand href="#" className="mr-auto ml-auto">
                             <img id="home" className="navbar-brand" src={Brand} alt="" onClick={this.onClick} />
                         </NavbarBrand>
@@ -77,32 +74,8 @@ class ContentArea extends React.Component {
 
                         </Nav>
 
-                        {/*<NavbarBrand href='/z0rs-org/' className="mr-auto ml-auto">*/}
-                            {/*<img className="navbar-brand" src={Brand} alt="" />*/}
-                        {/*</NavbarBrand>*/}
-
-                        {/*<Nav className="mr-auto" navbar>*/}
-                            {/*<NavItem>*/}
-                                {/*<NavLink href="/z0rs-org/portfolio">Portfolio</NavLink>*/}
-                            {/*</NavItem>*/}
-                            {/*<NavItem>*/}
-                                {/*<NavLink href="/z0rs-org/resume">Resume</NavLink>*/}
-                            {/*</NavItem>*/}
-                            {/*<NavItem>*/}
-                                {/*<NavLink href="/z0rs-org/about">About J.Ahn</NavLink>*/}
-                            {/*</NavItem>*/}
-                            {/*<NavItem>*/}
-                                {/*<NavLink href="/z0rs-org/contact">Contact</NavLink>*/}
-                            {/*</NavItem>*/}
-                        {/*</Nav>*/}
                     </Navbar>
 
-                    {/*<Route exact path="/" component={Home} />*/}
-                    {/*<Route path="/home" component={Home} />*/}
-                    {/*<Route path="/portfolio" component={Portfolio} />*/}
-                    {/*<Route path="/resume" component={Resume} />*/}
-                    {/*<Route path="/about" component={About} />*/}
-                    {/*<Route path="/contact" component={Contact} />*/}
 
                     {this.state.showThisTab === 'home' && <Home />}
                     {this.state.showThisTab === 'portfolio' && <Portfolio />}
