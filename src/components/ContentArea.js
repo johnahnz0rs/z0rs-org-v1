@@ -17,7 +17,7 @@ class ContentArea extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showThisTab: 'contact'
+            showThisTab: 'portfolio'
         };
         // this.showTab = this.showTab.bind(this);
         // this.showHome = this.showHome.bind(this);
@@ -96,14 +96,15 @@ class ContentArea extends React.Component {
                         <button name="home" value="home" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Home</button>
                         <button name="portfolio" value="portfolio" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Portfolio</button>
                         <button name="resume" value="resume" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Resume</button>
-                        <button name="about" value="about" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Get to Know J.Ahn</button>
+                        <button name="about" value="about" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>About J.Ahn</button>
                         <button name="contact" value="Contact" type="button" className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.onClick}>Contact</button>
-                        <button className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.printState}>print state</button>
+                        {/*<button className="btn btn-sm btn-outline-primary fake-nav-btn" onClick={this.printState}>print state</button>*/}
                     </div>
 
                     <div className="my-header">
-                        <h1>John Ahn z0rs</h1>
-                        <p>"Cool guy.", "I love John Ahn."</p>
+                        <h2 className="text-bold">John Ahn z0rs</h2>
+                        <p>"Chill." "Competent."
+                        <br/>"I love that guy."</p>
                     </div>
 
 
