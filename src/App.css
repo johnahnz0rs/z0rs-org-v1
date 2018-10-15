@@ -1,8 +1,8 @@
 /*ContentArea.js*/
 .each-component {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+    /*border: 1px solid black;*/
+    /*margin: 10px;*/
+    /*padding: 10px;*/
 }
 .fake-nav-btn {
     margin: 10px;
@@ -22,6 +22,21 @@
 }
 /*end Home.js*/
 
+
+/*Portfolio.js*/
+/*.portfolio-table {*/
+    /*!*margin: 50px;*!*/
+    /*padding: 50px;*/
+/*}*/
+.portfolio-screenshot {
+    width: 480px;
+    height: auto;
+}
+/*.portfolio-logo {*/
+    /*height: 20px;*/
+    /*width: auto;*/
+/*}*/
+/*end Portfolio.js*/
 
 
 /*Resume.js*/
@@ -56,5 +71,11 @@ dd {
 /*Misc*/
 .no-bullets {
     list-style: none;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-underline {
+    text-decoration: underline;
 }
 /*end Misc*/
